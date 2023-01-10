@@ -11,7 +11,7 @@ public class StringCollections {
         List<String> n = Arrays.asList(name.split("\u0020"));
         Collections.sort(n, Comparator.comparingInt(String::length).reversed());
         for (String f : n) {
-            System.out.println("f");
+            System.out.println(f);
         }
     }
 }
